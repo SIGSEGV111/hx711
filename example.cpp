@@ -11,6 +11,8 @@ int main()
 
 		THX711 hx711("/dev/spidev0.0");
 
+		hx711::DEBUG = true;
+
 		while(true)
 		{
 			try

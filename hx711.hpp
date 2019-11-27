@@ -2,8 +2,11 @@
 
 #include <stdint.h>
 
+
 namespace hx711
 {
+	extern bool DEBUG;
+
 	struct TFileDescriptor
 	{
 		public:
